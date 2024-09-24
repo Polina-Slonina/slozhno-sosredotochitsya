@@ -16,6 +16,5 @@
   --text-shadow: #ff0070;
   --main-font: 'IBM Plex mono';
   --main-size: 18px;
-  --padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   --bd-image: url(/images/cover-image-dark.png);
 }
