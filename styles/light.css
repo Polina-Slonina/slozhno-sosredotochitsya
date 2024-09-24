@@ -45,10 +45,10 @@
   }
 }
 
-.page.theme_light .header__decorated::before  {
+.page.theme_light .header__decorated::before {
   display: none;
 }
 
-.page.theme_light .header__decorated::after  {
+.page.theme_light .header__decorated::after {
   display: none;
 }

@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root .theme_dark{
+:root .theme_dark {
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
