@@ -27,6 +27,6 @@
    background-image: var(--bd-image);
 }
 
-.header__decorated { 
+.header__decorated {
   display: block;
 }
