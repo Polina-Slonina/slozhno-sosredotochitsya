@@ -417,7 +417,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  block-size: clamp(41.75rem, 20.5191rem + 90.5852vw, 64rem);
+  /* block-size: clamp(41.75rem, 20.5191rem + 90.5852vw, 64rem); */
   margin-block-start: 40px;
   block-size: 100vh;
   min-block-size: 668px;
