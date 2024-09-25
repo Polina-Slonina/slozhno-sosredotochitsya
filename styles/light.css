@@ -6,17 +6,20 @@
 :root .theme_light {
   --bg-color: #FFF1F7;
   --text-color: #353430;
-  --accent-color: #ff0070;
+  /* --accent-color: #ff0070; */
   --bd-accent-color: #FF8DCB;
   --accent-title-color: #ffc2e6;
   --accent-decor-color: #353430;
   --accent-text-color: #353430;
   --border-line: #353430;
   --button-color: #353430;
-  --text-shadow: #ff0070;
-  --main-font: 'IBM Plex mono';
+  /* --text-shadow: #ff0070; */
+  --text-shadow-links: #ff8dcb;
+  --border-hover: rgba(50, 49, 45, 0.4);
+  /* --main-font: 'IBM Plex mono';
   --main-size: 18px;
-  --bd-image: url(/images/cover-image-light.png);
+  --text-center: center; */
+  --bd-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light {
@@ -27,24 +30,6 @@
   background-image: var(--bd-image);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #FFF1F7;
-    --text-color: #353430;
-    --accent-color: #ff0070;
-    --bd-accent-color: #FF8DCB;
-    --accent-title-color: #ffc2e6;
-    --accent-decor-color: #353430;
-    --accent-text-color: #353430;
-    --border-line: #353430;
-    --button-color: #353430;
-    --text-shadow: #ff0070;
-    --main-font: 'IBM Plex mono';
-    --main-size: 18px;
-    --bd-image: url(/images/cover-image-light.png);
-  }
-}
-
 .page.theme_light .header__decorated::before {
   display: none;
 }
@@ -52,3 +37,33 @@
 .page.theme_light .header__decorated::after {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --text-color: #353430;
+    /* --accent-color: #ff0070; */
+    --bd-accent-color: #FF8DCB;
+    --accent-title-color: #ffc2e6;
+    --accent-decor-color: #353430;
+    --accent-text-color: #353430;
+    --border-line: #353430;
+    --button-color: #353430;
+    /* --text-shadow: #ff0070; */
+    --text-shadow-links: #ff8dcb;
+    --border-hover: rgba(50, 49, 45, 0.4);
+    /* --main-font: 'IBM Plex mono';
+    --main-size: 18px;
+    --text-center: center; */
+    --bd-image: url(../images/cover-image-light.png);
+  }
+
+  .page.theme_auto .header__decorated::before {
+    display: none;
+  }
+  
+  .page.theme_auto .header__decorated::after {
+    display: none;
+  }
+}
+

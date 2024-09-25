@@ -14,7 +14,17 @@
   --border-line: #ff0070;
   --button-color: #ff0070;
   --text-shadow: #ff0070;
+  --text-shadow-links: #ff0070;
+  --border-hover: rgba(255, 0, 112, 0.4);
   --main-font: 'IBM Plex mono';
   --main-size: 18px;
-  --bd-image: url(/images/cover-image-dark.png);
+  --text-center: center;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --bd-image: url(../images/cover-image-dark.png);
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

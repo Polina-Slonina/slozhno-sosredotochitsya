@@ -6,17 +6,17 @@
 :root .theme_dark {
   --bg-color: #000028;
   --text-color: #f1b2ce;
-  --accent-color: #ff0070;
+  /* --accent-color: #ff0070; */
   --bd-accent-color: #ff0070;
   --accent-title-color: #db00ff;
   --accent-decor-color: #000028;
   --accent-text-color: #ff0070;
   --border-line: #ff0070;
   --button-color: #ff0070;
-  --text-shadow: #ff0070;
-  --main-font: 'IBM Plex mono';
-  --main-size: 18px;
-  --bd-image: url(/images/cover-image-dark.png);
+  /* --text-shadow: #ff0070; */
+  --text-shadow-links: #ff0070;
+  --border-hover: rgba(255, 0, 112, 0.4);
+  --bd-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark {
@@ -25,4 +25,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
    background-image: var(--bd-image);
+}
+
+.header__decorated { 
+  display: block;
 }
